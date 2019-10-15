@@ -28,4 +28,6 @@ end
 def aoh_update(aoh, row, key, new_value)
   # Update the AoH data at row and key to have the value of new_value
   # Return the updated AoH
+  new_array = [DON_G, JOELLE_VD, PAT_M, KATE_G, BRUCE_G]
+  new_array[row][key] = new_value
 end
